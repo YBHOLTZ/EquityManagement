@@ -46,3 +46,20 @@ ou
     },
 ]
 
+- Exemplos de body para requests;
+
+Body para:
+POST api/equity
+PUT api/equity/5
+{
+  "name": "teste",
+  "brandID": 5,
+  "description": "sobre..."
+}
+
+Body para:
+POST api/brand
+PUT api/brand/5
+{
+ "name" : "brand-01'
+}
